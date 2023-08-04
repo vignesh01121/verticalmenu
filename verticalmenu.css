@@ -6,7 +6,7 @@ body{
 }
 #cont{
 background-color: chartreuse;
-width: 10%;
+min-width: 10%;
 height: 100vh;
 }
 #nav{
