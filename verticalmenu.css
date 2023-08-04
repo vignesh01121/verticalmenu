@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: chocolate;
+}
+#cont{
+background-color: chartreuse;
+width: 10%;
+height: 100vh;
+}
+#nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#nav li a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    border-bottom: 2px solid white;
+}
+#drop{
+    position: relative;
+}
+#menu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    background-color: orange;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#imenu{
+    list-style-type: none;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    background-color: black;
+    width: 140%;
+    display: none;
+}
+#i:hover #imenu{
+    display: block;
+}
+#nav li a:checked{
+    color: red;
+    background-color: aqua;
+}
